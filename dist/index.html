@@ -73,10 +73,11 @@
           log("Unable to Load SwaggerUI");
         },
         docExpansion: "none",
-        jsonEditor: false,
+        jsonEditor: true,
         apisSorter: "alpha",
-        defaultModelRendering: 'schema',
-        showRequestHeaders: false
+        defaultModelRendering: 'model',
+        showRequestHeaders: false,
+        validatorUrl: null
       });
 
       function addApiKeyAuthorization(){
